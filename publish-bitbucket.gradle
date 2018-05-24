@@ -65,7 +65,7 @@ uploadArchives {
 
         uniqueVersion = true
 	
-	-Dwagon.git.safe.checkout=true
+	wagon.git.safe.checkout=true
 
         pom.project {
             groupId = ARTIFACT_PACKAGE
