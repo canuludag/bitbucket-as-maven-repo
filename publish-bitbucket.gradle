@@ -64,8 +64,6 @@ uploadArchives {
         repository(url: 'git:releases://git@bitbucket.org:' + COMPANY + '/' + REPOSITORY_NAME + '.git')
 
         uniqueVersion = true
-	
-	wagon.git.safe.checkout=true
 
         pom.project {
             groupId = ARTIFACT_PACKAGE
